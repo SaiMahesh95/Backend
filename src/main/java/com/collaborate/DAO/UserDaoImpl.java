@@ -13,11 +13,11 @@ import org.springframework.transaction.annotation.Transactional;
 import com.collaborate.Model.User;
 
 @Repository("userDAO")
-public class UserDAOImpl implements UserDAO{	
+public class UserDaoImpl implements UserDAO{	
 	
 	@Autowired
 	SessionFactory sessionFactory;
-	public UserDAOImpl(SessionFactory sessionFactory)
+	public UserDaoImpl(SessionFactory sessionFactory)
 	{
 		this.sessionFactory=sessionFactory;
 	}

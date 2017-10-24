@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.collaborate.Model.Blog;
 
-public interface BlogDAO {
+public interface BlogDao {
 
 	public boolean createBlog(Blog blog);
 	public Blog getBlog(int blogId);

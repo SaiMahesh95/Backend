@@ -1,5 +1,5 @@
 package com.collaborate.DAO;
 
-public interface BlogPostDAO {
+public interface UserDao {
 
 }

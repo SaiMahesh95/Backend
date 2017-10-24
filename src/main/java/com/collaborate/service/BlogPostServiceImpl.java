@@ -5,13 +5,13 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.collaborate.DAO.BlogPostDAO;
+import com.collaborate.DAO.BlogPostDao;
 import com.collaborate.Model.BlogPost;
 
 @Service
 public class BlogPostServiceImpl implements BlogPostService {
 @Autowired
-private BlogPostDAO blogPostDAO;
+private BlogPostDao blogPostDAO;
 public void addBlogPost(BlogPost blogPost){
 	blogPostDAO.addBlogPost(blogPost);
 }
