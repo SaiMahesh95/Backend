@@ -14,8 +14,7 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.collaborate.DAO.BlogDao;
-import com.collaborate.DAO.BlogDaoImpl;
+
 import com.collaborate.Model.Blog;
 import com.collaborate.Model.Forum;
 
@@ -65,10 +64,6 @@ public class DBConfig {
 		    return new HibernateTransactionManager(sessionFactory);
     }
 
-   @Bean
-   public BlogDao getBlogDAO(SessionFactory sessionFactory)
-   {
-  	 return new BlogDaoImpl(sessionFactory);
-   }
+  
      
 }

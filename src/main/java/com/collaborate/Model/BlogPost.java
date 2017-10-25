@@ -21,7 +21,7 @@ public class BlogPost {
 	@Lob
 	private String blogContent;
 	@ManyToOne
-	private User postedBy;
+	private Users postedBy;
 	private Date postedOn;
 	private boolean approved;
 	private String rejectionReason;
@@ -50,10 +50,10 @@ public class BlogPost {
 	public void setBlogContent(String blogContent) {
 		this.blogContent = blogContent;
 	}
-	public User getPostedBy() {
+	public Users getPostedBy() {
 		return postedBy;
 	}
-	public void setPostedBy(User postedBy) {
+	public void setPostedBy(Users postedBy) {
 		this.postedBy = postedBy;
 	}
 	public Date getPostedOn() {

@@ -2,18 +2,17 @@ package com.collaborate.DAO;
 
 import java.util.List;
 
-import javax.servlet.http.HttpSession;
 
 import org.hibernate.Query;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+
 import org.springframework.stereotype.Repository;
 
-import com.niit.model.Friend;
-import com.niit.model.Users;
+import com.collaborate.Model.Friend;
+import com.collaborate.Model.Users;
 @Repository
 public class FriendDaoImpl implements FriendDao {
 	@Autowired

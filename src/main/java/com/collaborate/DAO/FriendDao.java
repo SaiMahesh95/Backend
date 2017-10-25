@@ -2,8 +2,8 @@ package com.collaborate.DAO;
 
 import java.util.List;
 
-import com.niit.model.Friend;
-import com.niit.model.Users;
+import com.collaborate.Model.Friend;
+import com.collaborate.Model.Users;
 
 public interface FriendDao {
 

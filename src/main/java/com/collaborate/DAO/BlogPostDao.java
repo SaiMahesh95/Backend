@@ -2,8 +2,8 @@ package com.collaborate.DAO;
 
 import java.util.List;
 
-import com.collaborate.model.BlogComment;
-import com.collaborate.model.BlogPost;
+import com.collaborate.Model.BlogComment;
+import com.collaborate.Model.BlogPost;
 
 public interface BlogPostDao 
 {
